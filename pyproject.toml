@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aether-ai"
+version = "1.0.0"
+description = "AETHER — 世界顶级自校验 AI 核心：纯 Python 零依赖，站在世界顶级数学/算法之上，每个模块以解析不变量自测。"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "晨星 (Morningstar)", email = "morningstar@aether.ai" }]
+keywords = ["ai", "machine-learning", "deep-learning", "optimization", "numerical", "svd", "attention"]
+
+[project.urls]
+Homepage = "https://github.com/CJX0712/AETHER"
+Repository = "https://github.com/CJX0712/AETHER"
+
+[tool.setuptools.packages.find]
+include = ["aether*"]
